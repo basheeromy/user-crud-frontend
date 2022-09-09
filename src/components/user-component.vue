@@ -7,7 +7,7 @@
             {{ loading ? 'Loading...' : 'Submit' }}
         </button>
     </form>
-    <div class="box" v-else> 
+    <div class="box" v-else-if="user"> 
       <div class="name">
           {{ user.name }}
       </div>
