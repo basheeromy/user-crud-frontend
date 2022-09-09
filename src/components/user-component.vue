@@ -9,10 +9,10 @@
     </form>
     <div class="box" v-else> 
       <div class="name">
-          {{ name }}
+          {{ user.name }}
       </div>
       <div class="age">
-          {{ age }}
+          {{ user.age }}
       </div>
       <span class="edit-bt" @click="edit = true" v-if="editable">Edit</span>
     </div>
